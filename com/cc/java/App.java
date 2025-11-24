@@ -10,7 +10,7 @@ public class App {
         output("Blick von innen: " + cat.getInstanceVariable());
 
         output(cat.getFirstName());
-        output(cat.getFirstName());
+        output(cat.getFurColor());
         output(Integer.toString(cat.getAge()));  // Explizite Typumwandlung!
 
         output("-----------------------");

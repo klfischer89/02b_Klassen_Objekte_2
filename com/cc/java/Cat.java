@@ -26,6 +26,20 @@ public class Cat {
         return age;
     }
 
+    
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+
+    public void setFurColor(String furColor) {
+        this.furColor = furColor;
+    }
+
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
 
     // return der Instanzvariablen / Adresse
