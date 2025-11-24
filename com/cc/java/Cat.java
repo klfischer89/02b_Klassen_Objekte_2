@@ -15,7 +15,15 @@ public class Cat {
 
 
     public String getFirstName() {
-        return firstName;
+        if (getPermission()) {
+            return firstName;
+        } else {
+            return "Sorry, no permission!";
+        } 
+    }
+
+    private boolean getPermission(){
+        return true;
     }
 
     public String getFurColor() {
